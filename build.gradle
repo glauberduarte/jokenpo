@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'br.com.glauber'
+version = '1.0.0-RELEASE'
+sourceCompatibility = '1.8'
+
+//create a single Jar with all dependencies
+task fatJar(type: Jar) {
+	manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',  
+        	'Implementation-Version': version,
+        	'Main-Class': 'br.com.glauber.jokenpo.app.Jokenpo'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
