@@ -19,13 +19,14 @@ public class LineReader {
 			System.out.print(printThis);
 			readKey = getReader().readLine();
 			System.out.println("");
-			System.out.print("\r");
+			System.out.print("\033[H\033[2J");
+			System.out.flush(); 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		return readKey;
 	}
-
+	
 	/**
 	 * Imprimi uma frase e aguarda um retorno, com a possibilidade de encerrar a jogo com exit ou sair
 	 * @param printThis

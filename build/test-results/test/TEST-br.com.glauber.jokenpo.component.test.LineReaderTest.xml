@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="br.com.glauber.jokenpo.component.test.LineReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-04-28T00:02:16" hostname="FBCOMP005" time="0.023">
+<testsuite name="br.com.glauber.jokenpo.component.test.LineReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-04-28T01:09:56" hostname="FBCOMP005" time="0.024">
   <properties/>
-  <testcase name="souldReadLineReturnWritedExit" classname="br.com.glauber.jokenpo.component.test.LineReaderTest" time="0.02"/>
-  <testcase name="souldReadLineReturnWrited" classname="br.com.glauber.jokenpo.component.test.LineReaderTest" time="0.001"/>
+  <testcase name="souldReadLineReturnWritedExit" classname="br.com.glauber.jokenpo.component.test.LineReaderTest" time="0.023"/>
+  <testcase name="souldReadLineReturnWrited" classname="br.com.glauber.jokenpo.component.test.LineReaderTest" time="0.0"/>
   <system-out><![CDATA[teste
-teste
-]]></system-out>
+?[H?[2Jteste
+?[H?[2J]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
