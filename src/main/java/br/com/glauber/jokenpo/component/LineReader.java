@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class LineReader {
 
-	private BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	private BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 	/**
 	 * Imprimi uma frase e aguarda um retorno
@@ -17,7 +17,7 @@ public class LineReader {
 		String readKey = null;
 		try {
 			System.out.print(printThis);
-			readKey = br.readLine();
+			readKey = getReader().readLine();
 			System.out.println("");
 			System.out.print("\r");
 		} catch (IOException e) {
@@ -37,5 +37,9 @@ public class LineReader {
 			System.exit(0);
 		}
 		return readKey;
+	}
+
+	public BufferedReader getReader() {
+		return reader;
 	}
 }

@@ -1,9 +1,16 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
+repositories {
+   	maven { url 'http://repo1.maven.org/maven2' }
+}
+
 group = 'br.com.glauber'
 version = '1.0.0-RELEASE'
 sourceCompatibility = '1.8'
+
+
+mainClassName = 'br.com.glauber.jokenpo.app.Jokenpo'
 
 //create a single Jar with all dependencies
 task fatJar(type: Jar) {
@@ -18,5 +25,7 @@ task fatJar(type: Jar) {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.7.22'
 }

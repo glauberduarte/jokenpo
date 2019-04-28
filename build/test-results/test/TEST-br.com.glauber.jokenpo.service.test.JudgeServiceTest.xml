@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.glauber.jokenpo.service.test.JudgeServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-04-28T00:02:16" hostname="FBCOMP005" time="0.013">
+  <properties/>
+  <testcase name="souldComparePlayedsGamer2StoneWinScissors" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.005"/>
+  <testcase name="souldComparePlayedsGamer2ScissorsWinPaper" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.0"/>
+  <testcase name="souldComparePlayedsDrawPaper" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.0"/>
+  <testcase name="souldComparePlayedsDrawStone" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.001"/>
+  <testcase name="souldComparePlayedsDrawScissors" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.001"/>
+  <testcase name="souldComparePlayedsGamer2PaperWinStonr" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.0"/>
+  <testcase name="souldComparePlayedsGamer1PaperWinStonr" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.0"/>
+  <testcase name="souldComparePlayedsGamer1StoneWinScissors" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.0"/>
+  <testcase name="souldComparePlayedsGamer1ScissorsWinPaper" classname="br.com.glauber.jokenpo.service.test.JudgeServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
